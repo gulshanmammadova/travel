@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#all{
+    width: 80%;
+    margin: auto;
+}
+.text{text-align: center;
+    margin: auto;
+    
+}
+.text h3{
+    margin: 1rem;color: black;
+}
+.text h4{
+    margin: 1rem;color: black;
+}
+#all hr{
+  
+    width: 5%;
+    border: 1px solid orange;
+    height: 2px;
+    background-color: orange;
+    margin: auto;
+}
+ .image img{
+    vertical-align:bottom;
+    margin-top: 2rem;
+    filter: brightness(1);
+    border-radius: 100%;
+    transform: 0.5s;
+}
+.allimage{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.image:hover img{
+    filter: brightness(1.5);
+}
+#iconpart{
+   
+    margin: auto;
+    text-align: center;
+    margin: 3rem auto;
+  background-image: url("https://travelwp.physcode.com/wp-content/uploads/2016/09/bg-pallarax.jpg"); top: -26.7315%;
+       background-size: cover;
+    background-size: cover;
+      padding:14rem ;
+}
+
+h3,h4{
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+}
+#iconpart  hr{
+    width: 5%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+svg
+{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
